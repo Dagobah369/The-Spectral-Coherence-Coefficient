@@ -12,8 +12,8 @@ non-trivial zeros of ζ(s), the framework predicts and explains the value C10 = 
 N = 10 is the unique window length aligning the natural window shift contraction
 (N − 1)/N with the mean E[CN]. An AR(1) modeling with negative rank-1 correlation
 (ϕ ≈ −0.36) accounts for the observed dispersion and the N − 2 regime.
-Numerically, we validate these results on the first 105 zeros and describe a reproducible
-streaming pipeline extensible to 1010 zeros (simple/refined unfolding, block
+Numerically, we validate these results on the first 10^5 zeros and describe a reproducible
+streaming pipeline extensible to 10^10 zeros (simple/refined unfolding, block
 bootstrap, ACF). The formalism extends to L-function families: the mean remains
 universal, while the variance encodes the class. We position 0.9 as a universal spectral
 invariant—a key to analytic stability—without claiming to prove the Riemann
