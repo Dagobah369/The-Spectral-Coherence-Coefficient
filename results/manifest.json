@@ -1,0 +1,25 @@
+{
+  "input_file": "zeros1.txt",
+  "sha256": "92ef7b62dd79a1e87f754696eb39287ac1dd396c47239f1b04c11f5ee7195d14",
+  "n_zeros": 100000,
+  "height_range": [
+    14.134725142,
+    74920.827498994
+  ],
+  "params": {
+    "input": "zeros1.txt",
+    "outdir": "results",
+    "unfolding": "simple",
+    "N": [
+      5,
+      10,
+      20,
+      50,
+      100
+    ],
+    "overlap": 0.5,
+    "acf_lags": 20,
+    "seed": 1729
+  },
+  "timestamp": "2025-12-22T13:59:10.051073Z"
+}
